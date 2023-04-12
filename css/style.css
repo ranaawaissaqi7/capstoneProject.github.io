@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.heroSection{
+    background-image: url("../images/heroSectionImage/2-layers-1_mini.jpg");
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heroSection nav{
+    background-color:rgba(0,0, 0, 0.5);
+    height: 80px;
+    position:sticky;
+    top:0;
+}
+.heroSection nav .dropdown:hover .dropdown-menu{
+    display: block !important;
+}
+.heroSection nav .nav-link:hover{
+    color: yellow !important
+}
+.Benvenuti{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 700%;
+    font-weight: 400;
+}
+
+.Reinterpreted h2{
+  font-size: 300%;
+  font-weight:700;
+  color: black;
+  text-align: center;
+}
+  
+.discover .popular-menu{
+font-size:400%;
+font-weight: 700;
+}
+.discover nav ul li{
+    padding: 15px !important;
+}
+.discover .nav-link:hover{
+color: brown !important;
+}
+
+.dishes .box1{
+    position: relative;
+    overflow: hidden;
+    width: 325px;
+}
+.dishes .box1 img{
+    width: 100%;
+    transition: transform 1s;
+}
+.dishes .box1:hover img{
+    transform: scale(1.1);
+}
+.dishes .box2{
+    position: absolute;
+    width: 325px;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    background-color: rgba(129, 156, 29, 0.8);
+    color: white;
+}
+.dishes .box1:hover .box2{
+    left: 0%;
+    transition: all 0.5s;
+}
+.full-menu{
+    background-image: url("../images/dishesImages/26.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.full-menu h2{
+    font-size: 300%;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.Ingredients{
+    background-image: url("../images/IngredientsImages/restaurant-parallax-scroller-image.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+
+.Ingredients h2{
+    font-size: 300%;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.Delicious{
+    background-image: url("../images/DeliciousImages/3-layers-1_mini_mini.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+}
+
+.Delicious h2{
+    font-size: 300%;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.Testimonials h2{
+    font-size: 300%;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+footer .one-block{
+    height: 350px;
+}
+footer ul li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+    border-right: 2px solid silver;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer .end{
+    border-top: 1px solid white;
+}

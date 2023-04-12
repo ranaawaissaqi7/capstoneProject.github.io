@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.heroSection{
+    background-image: url("../pages/menu1/images/3.jpg");
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heroSection h1{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 5rem;
+    color: yellow;
+}
+.heroSection nav{
+    background-color:rgba(0,0, 0, 0.5);
+    height: 80px;
+    position: sticky;
+    top: 0%;
+}
+.heroSection nav .dropdown:hover .dropdown-menu{
+    display: block !important;
+}
+.heroSection nav .nav-link:hover{
+    color: yellow !important
+}
+.heroSection .text{
+    height: 100vh;
+}
+.SUBSCRIBE{
+    background-image: url("../pages/about/images/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+footer .one-block{
+    height: 350px;
+}
+footer ul li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+    border-right: 2px solid silver;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer .end{
+    border-top: 1px solid white;
+}
